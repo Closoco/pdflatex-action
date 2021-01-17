@@ -1,6 +1,9 @@
 # action.yml
 name: 'PDFlatex'
 description: 'Runs pdflatex on tex files'
+branding:
+  icon: 'file-text'  
+  color: 'blue'
 inputs:
   texFile:  # id of input
     description: 'name of the tex file'
